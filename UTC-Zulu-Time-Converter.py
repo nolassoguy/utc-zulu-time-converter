@@ -2,7 +2,7 @@ import datetime
 import dateutil.parser
 import pytz
 
-#3 examples below
+#3 examples below using the same input for three different timezones
 
 end_time = '2020-08-27T01:00:01.000Z'
 dt_UTC = dateutil.parser.parse(end_time)
