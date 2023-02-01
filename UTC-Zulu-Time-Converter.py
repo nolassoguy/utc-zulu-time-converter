@@ -5,8 +5,6 @@ import re
 
 end_time = input('\nPlease enter a UTC-Zulu Date Time Format (e.g. \'2023-01-30T19:11:05Z\'):\n\n')
 
-# https://www.geeksforgeeks.org/pattern-matching-python-regex/
-
 try:
 	zulu_re = re.findall(r'^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ$', end_time)[0]
 
